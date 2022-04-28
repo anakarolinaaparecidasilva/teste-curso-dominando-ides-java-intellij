@@ -8,7 +8,7 @@ public class PrimeiroPrograma {
 
       System.out.println(gato);
 
-        Livro livro1 = new Livro("O problema dos 3 corpos", 300);
+        var livro1 = new Livro("O problema dos 3 corpos", 300);
         System.out.println(livro1);
 
        /*int a = 5;
@@ -16,11 +16,11 @@ public class PrimeiroPrograma {
         System.out.println("Hello World" + (a+b));*/
     }
 
-    static class Livro {
+    static class CLivro {
         private String nome;
         private String numPaginas;
 
-        public Livro(String nome, int numPaginas) {
+        public void Livro(String nome, int numPaginas) {
             this.nome = nome;
             this.numPaginas = String.valueOf(numPaginas);
         }
